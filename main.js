@@ -1,4 +1,4 @@
-const themeToggle = document.getElementById("#theme-toggle");
+const themeToggle = document.getElementById("theme-toggle");
 const savedTheme = localStorage.getItem("theme");
 
 if (savedTheme === "dark") {
