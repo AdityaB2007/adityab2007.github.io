@@ -107,6 +107,10 @@ a:hover {
     font-weight: 600;
 }
 
+#theme-toggle {
+    cursor: pointer;
+}
+
 footer {
     text-align: center;
     padding: 32px;
