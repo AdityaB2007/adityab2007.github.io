@@ -27,19 +27,19 @@ if (themeToggle) {
 const projects = [
     {
         title: "How Old Are You? (MATH 4997 Project in Collaboration w/ PBRC)",
-        category: "Machine Learning · Research",
+        category: "Machine Learning · Data Analysis",
         description:
             "Worked on regression models for biological age prediction using clinical biomarker data, with focus on model evaluation, feature selection, PCA, and statistical analysis."
     },
     {
         title: "Quantum Visualizer",
-        category: "Physics · Scientific Computing · Visualization",
+        category: "Data Visualization · Scientific Computing",
         description:
             "An interactive project for visualizing quantum mechanics concepts such as wavefunctions, probability densities, and simple quantum systems."
     },
     {
         title: "New Vraja Dham Website",
-        category: "Web Development · HTML · CSS · JavaScript",
+        category: "HTML · CSS · JavaScript",
         description:
             "Built a static website for the ISKCON Baton Rouge community, focusing on clean structure, responsive design, and accessible information for visitors."
     }
