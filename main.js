@@ -26,7 +26,7 @@ if (themeToggle) {
 
 const projects = [
     {
-        title: "Biological Age Prediction",
+        title: "How Old Are You? (MATH 4997 Project in Collaboration w/ PBRC)",
         category: "Machine Learning · Research",
         description:
             "Worked on regression models for biological age prediction using clinical biomarker data, with focus on model evaluation, feature selection, PCA, and statistical analysis."
