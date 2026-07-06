@@ -140,10 +140,18 @@ a:hover {
 }
 
 .publication-title {
-    color: #2563eb;
     font-size: 1.35rem;
     line-height: 1.25;
     margin-bottom: 10px;
+}
+
+.publication-title a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.publication-title a:hover {
+    text-decoration: underline;
 }
 
 .publication-venue {
@@ -215,7 +223,7 @@ body.dark-mode footer {
 }
 
 body.dark-mode a,
-body.dark-mode .publication-title {
+body.dark-mode .publication-title a {
     color: #93c5fd;
 }
 
