@@ -176,9 +176,21 @@ a:hover {
 
 footer {
     text-align: center;
-    padding: 32px;
+    padding: 42px 24px;
     color: #64748b;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #2563eb;
+    font-size: 1.4rem;
 }
 
 body.dark-mode {
