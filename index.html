@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Baisakh - Aspiring MLE</title>
-    <link rel="canonical" href="https://adityab2007.github.io/">
 
-    <meta name="description" content="Aditya Baisakh - Aspiring MLE">
+    <meta name="description" content="Aditya Baisakh - Computer Science and Mathematics student at LSU interested in machine learning, scientific computing, and mathematical research.">
     <meta name="keywords" content="Aditya Baisakh, Machine Learning, Mathematics, Physics, Scientific Computing, LSU">
     <meta name="author" content="Aditya Baisakh">
 
     <meta property="og:site_name" content="Aditya Baisakh">
     <meta property="og:title" content="Aditya Baisakh">
     <meta property="og:description" content="Aditya Baisakh - Aspiring MLE">
-    <meta property="og:image" itemprop="image" content="https://adityab2007.github.io/assets/images/profile.jpg">
+    <meta property="og:image" content="https://adityab2007.github.io/assets/images/profile.jpg">
     <meta property="og:type" content="website">
 
+    <link rel="canonical" href="https://adityab2007.github.io/">
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -24,13 +23,14 @@
 <body>
     <main class="page-container">
         <section id="home" class="hero-section">
-            <div class="profile-image-wrapper">
+            <div class="profile-wrapper">
                 <img src="assets/images/profile.jpg" alt="Photo of Aditya Baisakh" class="profile-image">
             </div>
 
             <div class="intro-content">
                 <h1>Aditya Baisakh</h1>
                 <h3>CS & Math Student @ LSU</h3>
+
                 <p>
                     I am an undergraduate sophomore pursuing a B.S. in
                     <a href="https://www.lsu.edu/eng/cse/index.php" target="_blank">Computer Science</a>
@@ -40,34 +40,35 @@
                     <a href="https://www.lsu.edu/" target="_blank">Louisiana State University</a>,
                     graduating in May 2029.
                 </p>
+
                 <p>
-                    My interests include machine learning, scientific computing,
-                    mathematical modeling, algorithms, and research-driven software development.
+                    My interests include machine learning, scientific computing, mathematical modeling,
+                    algorithms, and research-driven software development.
                 </p>
+
                 <div class="button-row">
                     <a href="mailto:abaisa3@lsu.edu">Email</a>
                     <a href="https://github.com/AdityaB2007" target="_blank">GitHub</a>
                     <a href="https://www.linkedin.com/in/aditya-baisakh/" target="_blank">LinkedIn</a>
                     <a href="assets/resume.pdf" target="_blank">CV</a>
-                    <button id="theme-toggle" type="button">
-                        🌙
-                    </button>
+                    <button id="theme-toggle" type="button">🌙</button>
                 </div>
             </div>
         </section>
 
         <section id="about" class="content-section">
             <h2>About</h2>
+
             <p>
-                I am interested in the intersection of computer science, mathematics,
-                physics, and machine learning. I enjoy building projects that connect
-                theory with computation, especially in scientific computing, data analysis,
-                and mathematical visualization.
+                I am interested in the intersection of computer science, mathematics, physics, and
+                machine learning. I enjoy building projects that connect theory with computation,
+                especially in scientific computing, data analysis, and mathematical visualization.
             </p>
+
             <p>
-                I have experience with Python, Java, HTML, CSS, JavaScript, data analysis,
-                and research-oriented programming. I am currently focused on strengthening
-                my machine learning, frontend development, and computational mathematics skills.
+                I have experience with Python, Java, HTML, CSS, JavaScript, data analysis, and
+                research-oriented programming. I am currently focused on strengthening my machine
+                learning, frontend development, and computational mathematics skills.
             </p>
         </section>
 
@@ -77,46 +78,89 @@
         </section>
 
         <section id="research" class="content-section">
-            <h2>Research</h2>
-            <article class="research-card">
-                <h3>Research Interests</h3>
-                <p>
-                    My research interests include machine learning, mathematical modeling,
-                    scientific computing, optimization, and applications of computation to
-                    biological and physical systems.
-                </p>
+            <h2>Publications</h2>
+
+            <article class="publication-block">
+                <div class="publication-figure">
+                    <img src="assets/images/breast-cancer-gan.png" alt="GAN breast cancer classification pipeline">
+                </div>
+
+                <div class="publication-content">
+                    <h3 class="publication-title">
+                        Enhancing Breast Cancer Classification Through GAN-Generated Synthetic Malignant Samples
+                    </h3>
+
+                    <p class="publication-venue">IEEE FMLDS, 2025</p>
+
+                    <p class="publication-authors">
+                        Keshav Balakrishna, <strong>Aditya Baisakh</strong>, Vivan Kanna,
+                        Aaron Lee, Moemal Al-Wishah
+                    </p>
+
+                    <p class="publication-description">
+                        Proposed a GAN-based minority-class augmentation approach for tabular clinical data
+                        using the UCI Wisconsin Breast Cancer dataset. Synthetic malignant samples were used
+                        to balance the training set for a soft-voting ensemble classifier.
+                    </p>
+
+                    <p class="publication-metrics">
+                        Validation accuracy: 98.07% · F1-score: 97.40%
+                    </p>
+
+                    <div class="publication-links">
+                        <a href="https://ieeexplore.ieee.org/document/11446652/" target="_blank">IEEE Xplore</a>
+                    </div>
+                </div>
             </article>
-            <article class="research-card">
-                <h3>Publications & Presentations</h3>
-                <p>
-                    I have contributed to research work presented or accepted at IEEE conferences,
-                    including projects involving machine learning, data analysis, and applied computing.
-                </p>
+
+            <article class="publication-block">
+                <div class="publication-figure">
+                    <img src="assets/images/alzheimers-altarn.png" alt="ALTARN neural network architecture diagram">
+                </div>
+
+                <div class="publication-content">
+                    <h3 class="publication-title">
+                        ALTARN: A Tabular Attention Residual Network for Early Alzheimer’s Disease Prediction
+                    </h3>
+
+                    <p class="publication-venue">IEEE FMLDS, 2025</p>
+
+                    <p class="publication-authors">
+                        Keshav Balakrishna, <strong>Aditya Baisakh</strong>, Vivan Kanna,
+                        Moemal Al-Wishah, Aaron Lee
+                    </p>
+
+                    <p class="publication-description">
+                        Proposed a tabular attention residual neural network for Alzheimer’s disease
+                        classification using heterogeneous medical, demographic, and lifestyle data
+                        from 2,149 subjects.
+                    </p>
+
+                    <p class="publication-metrics">
+                        Validation accuracy: 85.06% · Precision: 80.73% · Recall: 76.18% · F1-score: 78.32%
+                    </p>
+
+                    <div class="publication-links">
+                        <a href="https://ieeexplore.ieee.org/document/11446700" target="_blank">IEEE Xplore</a>
+                    </div>
+                </div>
             </article>
         </section>
 
         <section id="contact" class="content-section">
             <h2>Contact</h2>
-            <p>
-                Feel free to reach out for research, software, or collaboration opportunities.
-            </p>
+            <p>Feel free to reach out for research, software, or collaboration opportunities.</p>
+
             <div class="button-row">
-                <a href="mailto:adityabaisakh123@gmail.com">Email</a>
-                <a href="https://github.com/adityab2007" target="_blank">GitHub</a>
+                <a href="mailto:abaisa3@lsu.edu">Email</a>
+                <a href="https://github.com/AdityaB2007" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/aditya-baisakh/" target="_blank">LinkedIn</a>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <a href="mailto:abaisa3@lsu.edu"><i class="fas fa-envelope"></i></a>
-            <a class="external-link" href="https://github.com/AdityaB2007"><i class="fab fa-github"></i></a>
-            <a class="external-link" href="https://www.linkedin.com/in/aditya-baisakh"><i class="fab fa-linkedin"></i></a>
-            <p class="is-size-7 has-text-grey">
-                Aditya Baisakh · Louisiana State University
-            </p>
-        </div>
+    <footer>
+        <p>Aditya Baisakh · Louisiana State University</p>
     </footer>
 
     <script src="main.js"></script>
