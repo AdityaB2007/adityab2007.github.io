@@ -17,8 +17,8 @@ export const COURSEWORK = [
   'CSC 4890 Theory of Computation',
   'CSC 3380 Object-Oriented Design',
   'MATH 3355 Probability',
-  'MATH 4153 Vector Spaces',
-  'MATH 2090 Diff Eq & Linear Algebra',
+  'MATH 4153 Finite Dimensional Vector Spaces',
+  'MATH 2090 Elementary Differential Equations & Linear Algebra',
   'MATH 4997 Vertically Integrated Research',
 ];
 
