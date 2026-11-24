@@ -57,4 +57,22 @@ export const PROJECTS = [
     metric: 'ONNX YOLOX-Nano · Local LLM',
     tags: ['Flutter', 'ONNX', 'React', 'TypeScript'],
   },
+  {
+    title: 'Quantum Visualizer',
+    categories: ['Systems & Web'],
+    repo: 'https://github.com/AdityaB2007/quantum-visualizer',
+    summary:
+      'Numerical Python library for particle-in-a-box states, Gaussian wavepackets, finite-difference momentum expectation values, and Heisenberg uncertainty checks with animated plots.',
+    metric: 'NumPy · Finite Differences · pytest',
+    tags: ['Python', 'NumPy', 'Matplotlib', 'pytest'],
+  },
+  {
+    title: 'GPT from Scratch',
+    categories: ['ML & Vision'],
+    repo: 'https://github.com/AdityaB2007/neetcode-gpt',
+    summary:
+      'Self-attention, multi-head and grouped-query attention, KV-cache, BPE tokenizer, batched data loader, and training loop written in PyTorch.',
+    metric: 'PyTorch · BPE · KV-Cache',
+    tags: ['Python', 'PyTorch'],
+  },
 ];
