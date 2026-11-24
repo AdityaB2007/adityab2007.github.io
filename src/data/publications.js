@@ -21,4 +21,15 @@ export const PAPERS = [
     figure: '/assets/gan-pipeline.png',
     figureAlt: 'CTGAN synthetic augmentation and ensemble pipeline',
   },
+  {
+    title: "ALTARN: A Tabular Residual Neural Network for Alzheimer's Disease Classification and Prediction",
+    venue: 'IEEE FMLDS · Mar 2026',
+    url: 'https://ieeexplore.ieee.org/document/11446700',
+    authors: ['K. Balakrishna', 'A. Baisakh', 'V. Kanna', 'M. Al-Wishah', 'A. Lee'],
+    summary:
+      'Tabular attention residual network over clinical, demographic, and lifestyle variables for 2,149 subjects, using sigmoid feature attention and skip projections.',
+    metrics: '2,149 subjects · 85.06% val acc · 78.32% F1',
+    figure: '/assets/altarn-pipeline.png',
+    figureAlt: 'ALTARN tabular attention residual network diagram',
+  },
 ];
