@@ -29,4 +29,32 @@ export const PROJECTS = [
     metric: '100k ratings · 0.1249 MRR@10',
     tags: ['Python', 'pandas', 'NumPy'],
   },
+  {
+    title: 'Customer Churn Pipeline',
+    categories: ['Data & Pipelines', 'ML & Vision'],
+    repo: 'https://github.com/AdityaB2007/customer-churn-ml',
+    summary:
+      'Tabular churn workflow using scikit-learn ColumnTransformer for numeric and categorical fields, comparing logistic regression and random forest by F1 behind a FastAPI service.',
+    metric: 'FastAPI · joblib · pytest',
+    tags: ['Python', 'scikit-learn', 'FastAPI', 'pytest'],
+  },
+  {
+    title: 'SONAR',
+    categories: ['Data & Pipelines', 'ML & Vision'],
+    repo: 'https://github.com/AdityaB2007/SONAR',
+    summary:
+      'Unsupervised audio analysis on Spotify track tables. Audited missing rows, standardized features, ran PCA and K-Means with silhouette checks, and tested cosine kNN against a random baseline.',
+    metric: 'PCA · K-Means · Cosine kNN',
+    tags: ['Python', 'pandas', 'scikit-learn'],
+  },
+  {
+    title: 'ApolLens',
+    categories: ['ML & Vision', 'Systems & Web'],
+    badge: '2nd Place · GeauxHack 2026',
+    repo: 'https://github.com/AdityaB2007/ApolLens',
+    summary:
+      'Offline repair assistant pairing a YOLOX-Nano detector (ONNX Runtime) with on-device reasoning (Apple Foundation Models or Qwen3-1.7B), offline speech, and a React/TypeScript companion.',
+    metric: 'ONNX YOLOX-Nano · Local LLM',
+    tags: ['Flutter', 'ONNX', 'React', 'TypeScript'],
+  },
 ];
