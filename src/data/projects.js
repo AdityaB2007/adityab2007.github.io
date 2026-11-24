@@ -30,15 +30,6 @@ export const PROJECTS = [
     tags: ['Python', 'pandas', 'NumPy'],
   },
   {
-    title: 'Customer Churn Pipeline',
-    categories: ['Data & Pipelines', 'ML & Vision'],
-    repo: 'https://github.com/AdityaB2007/customer-churn-ml',
-    summary:
-      'Tabular churn workflow using scikit-learn ColumnTransformer for numeric and categorical fields, comparing logistic regression and random forest by F1 behind a FastAPI service.',
-    metric: 'FastAPI · joblib · pytest',
-    tags: ['Python', 'scikit-learn', 'FastAPI', 'pytest'],
-  },
-  {
     title: 'SONAR',
     categories: ['Data & Pipelines', 'ML & Vision'],
     repo: 'https://github.com/AdityaB2007/SONAR',
@@ -56,23 +47,5 @@ export const PROJECTS = [
       'Offline repair assistant pairing a YOLOX-Nano detector (ONNX Runtime) with on-device reasoning (Apple Foundation Models or Qwen3-1.7B), offline speech, and a React/TypeScript companion.',
     metric: 'ONNX YOLOX-Nano · Local LLM',
     tags: ['Flutter', 'ONNX', 'React', 'TypeScript'],
-  },
-  {
-    title: 'Quantum Visualizer',
-    categories: ['Systems & Web'],
-    repo: 'https://github.com/AdityaB2007/quantum-visualizer',
-    summary:
-      'Numerical Python library for particle-in-a-box states, Gaussian wavepackets, finite-difference momentum expectation values, and Heisenberg uncertainty checks with animated plots.',
-    metric: 'NumPy · Finite Differences · pytest',
-    tags: ['Python', 'NumPy', 'Matplotlib', 'pytest'],
-  },
-  {
-    title: 'GPT from Scratch',
-    categories: ['ML & Vision'],
-    repo: 'https://github.com/AdityaB2007/neetcode-gpt',
-    summary:
-      'Self-attention, multi-head and grouped-query attention, KV-cache, BPE tokenizer, batched data loader, and training loop written in PyTorch.',
-    metric: 'PyTorch · BPE · KV-Cache',
-    tags: ['Python', 'PyTorch'],
   },
 ];
