@@ -1,20 +1,20 @@
-# Aditya Baisakh - Portfolio Website
+# Aditya Baisakh
 
-Personal resume / tech portfolio site. Built using HTML, CSS, and JavaScript, no build step.
+Personal site built with React, Tailwind CSS, and Vite.
 
-**Live:** https://adityab2007.github.io
+Live at https://adityab2007.github.io
 
-## Deploy to GitHub Pages
-This repo must be named **`adityab2007.github.io`** (user site).
+## Development
 
 ```bash
-git init
-git add .
-git commit -m "[commit msg]"
-git branch -M main
-git remote add origin https://github.com/AdityaB2007/adityab2007.github.io.git
-git push -u origin main
+npm install
+npm run dev
 ```
 
-Then in GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → `main` / `root`**.
-The site goes live at: https://adityab2007.github.io shortly.
+## Build
+
+```bash
+npm run build
+```
+
+Pushing to `main` builds `dist/` and deploys to GitHub Pages via `.github/workflows/deploy.yml`.
