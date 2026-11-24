@@ -33,3 +33,30 @@ export const PAPERS = [
     figureAlt: 'ALTARN tabular attention residual network diagram',
   },
 ];
+
+export const BOOKS = [
+  {
+    title: 'ACE Differential Equations and Linear Algebra',
+    date: 'Mar 2026',
+    url: 'https://www.tmasacademy.com/books/ace-differential-equations-and-linear-algebra',
+    summary: 'First- and second-order ODEs, eigenvalues, linear systems, and Laplace transforms.',
+  },
+  {
+    title: 'ACE Multivariable Calculus',
+    date: 'Jan 2026',
+    url: 'https://www.tmasacademy.com/books/ace-multivariable-calculus',
+    summary: 'Vectors, partial derivatives, multiple integrals, and vector calculus.',
+  },
+  {
+    title: 'ACE AP Biology',
+    date: 'Apr 2025',
+    url: 'https://www.tmasacademy.com/books/ace-ap-biology',
+    summary: 'Co-authored 300+ page AP Biology review guide with 100+ practice questions.',
+  },
+  {
+    title: 'ACE AP Chemistry',
+    date: 'Sep 2024',
+    url: 'https://www.tmasacademy.com/books/ace-ap-chemistry',
+    summary: '400+ page AP Chemistry review guide with 100+ practice questions and solutions.',
+  },
+];
