@@ -20,4 +20,24 @@ export const EXPERIENCE = [
       'Lead a student-run STEM nonprofit after authoring four free review books in LaTeX (2024 – 2026).',
     ],
   },
+  {
+    role: 'Peer Tutor',
+    org: 'Louisiana State University',
+    period: 'Aug 2026 – Present',
+    location: 'Baton Rouge, LA',
+    bullets: [
+      'Lead 1-on-1 and group sessions in Calculus I–III, Differential Equations, Linear Algebra, and Numerical Methods.',
+      'Help students spot foundational gaps and practice structured problem-solving ahead of exams.',
+    ],
+  },
+  {
+    role: 'Research Intern',
+    org: 'LSU AgCenter',
+    period: 'Jun 2025 – Aug 2025',
+    location: 'Baton Rouge, LA',
+    bullets: [
+      'Processed 100 open-source annotated hydrangea leaf images with Python, NumPy, and OpenCV to compute defoliation percentages.',
+      'Compared Otsu thresholding outputs against manual pixel annotations for precision agriculture reporting.',
+    ],
+  },
 ];
