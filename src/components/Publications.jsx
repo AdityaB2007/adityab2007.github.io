@@ -1,4 +1,4 @@
-import { PAPERS } from '../data/publications';
+import { BOOKS, PAPERS } from '../data/publications';
 import { ArrowUpRightIcon } from './Icons';
 
 export function Publications() {
@@ -34,6 +34,23 @@ export function Publications() {
             </div>
           </article>
         ))}
+      </div>
+      <div className="mt-10">
+        <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Textbooks &amp; Guides (TMAS Academy)</h3>
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {BOOKS.map((book) => (
+            <a key={book.url} href={book.url} target="_blank" rel="noreferrer" className="flex flex-col justify-between rounded-xl border border-stone-200 bg-white p-4 transition-colors hover:border-stone-300 dark:border-[#262b36] dark:bg-[#161920] dark:hover:border-zinc-600">
+              <div>
+                <div className="flex items-start justify-between gap-2">
+                  <span className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">{book.title}</span>
+                  <ArrowUpRightIcon />
+                </div>
+                <p className="mt-1.5 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">{book.summary}</p>
+              </div>
+              <p className="mt-3 font-mono text-[11px] text-zinc-500 dark:text-zinc-400">{book.date}</p>
+            </a>
+          ))}
+        </div>
       </div>
     </section>
   );
