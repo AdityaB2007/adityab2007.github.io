@@ -30,14 +30,4 @@ export const EXPERIENCE = [
       'Help students spot foundational gaps and practice structured problem-solving ahead of exams.',
     ],
   },
-  {
-    role: 'Research Intern',
-    org: 'LSU AgCenter',
-    period: 'Jun 2025 – Aug 2025',
-    location: 'Baton Rouge, LA',
-    bullets: [
-      'Processed 100 open-source annotated hydrangea leaf images with Python, NumPy, and OpenCV to compute defoliation percentages.',
-      'Compared Otsu thresholding outputs against manual pixel annotations for precision agriculture reporting.',
-    ],
-  },
 ];
