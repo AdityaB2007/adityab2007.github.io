@@ -12,15 +12,10 @@ export function Hero() {
   ];
 
   return (
-    <section id="top" className="flex flex-col gap-7 pt-12 pb-10 sm:flex-row sm:items-start">
-      <img
-        src={PROFILE.photo}
-        alt={PROFILE.name}
-        className="h-32 w-32 shrink-0 rounded-2xl border border-stone-200 object-cover sm:h-36 sm:w-36 dark:border-[#262b36]"
-      />
+    <section id="top" className="grid grid-cols-1 gap-8 pt-12 pb-10 md:grid-cols-[1fr_248px] md:items-start">
       <div className="min-w-0">
-        <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-100">{PROFILE.name}</h1>
-        <p className="mt-1.5 font-mono text-xs text-zinc-500 sm:text-sm dark:text-zinc-400">{PROFILE.subtitle}</p>
+        <p className="font-mono text-xs text-zinc-500 sm:text-sm dark:text-zinc-400">{PROFILE.subtitle}</p>
+        <h1 className="mt-2 text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-100">{PROFILE.name}</h1>
         <div className="mt-4 space-y-3 text-[15px] leading-relaxed text-zinc-700 dark:text-zinc-300">
           {PROFILE.bio.map((line) => (
             <p key={line}>{line}</p>
@@ -35,6 +30,14 @@ export function Hero() {
           ))}
         </div>
       </div>
+      <dl className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white px-4 py-1 dark:divide-[#262b36] dark:border-[#262b36] dark:bg-[#161920]">
+        {PROFILE.facts.map((fact) => (
+          <div key={fact.label} className="py-2.5">
+            <dt className="font-mono text-[11px] uppercase tracking-wider text-zinc-500 dark:text-zinc-400">{fact.label}</dt>
+            <dd className="mt-0.5 text-sm font-medium text-zinc-900 dark:text-zinc-100">{fact.value}</dd>
+          </div>
+        ))}
+      </dl>
     </section>
   );
 }
